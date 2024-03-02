@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323');
 
 body {
-    background-image: linear-gradient(to top, #00224e, #00529a, #0195d4, #99daf9, #f0f4f6);
+    background-image: linear-gradient(to top, #01224f, #00529a, #0094d4, #98daf8, #f0f5f7);
     font-family: 'Courier Prime', monospace;
-    color: #f0f4f6;
+    color: #f0f5f7;
 }
 
 h1 {
     font-family: "VT323", monospace;
     text-align: center;
     font-size: 50px;
-    color: #00b7ff;
+    color: #00f7ff;
 }
 
 #contenedor {
@@ -36,6 +36,8 @@ h1 {
     width: 50%;
     float: left;
     text-align: left;
+    margin-top: 19px;
+    display: none;
 }
 
 #comoSeCalcula {
@@ -56,7 +58,7 @@ input {
     width: 50%;
     padding: 10px 10px;
     border: none;
-    background-color: #f0f4f6;
+    background-color: #f0f5f7;
 }
 
 button {
@@ -65,9 +67,9 @@ button {
     font-weight: bold;
     padding: 10px 40px;
     border-radius: 30px;
-    background-color: #00224e;
+    background-color: #01224f;
     border: none;
-    color: #00b7ff;
+    color: #00f7ff;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: transform 20ms ease-in;
@@ -75,13 +77,12 @@ button {
 
 button:active {
     transform: scale(0.95);
-    background-color: #001836;
-    color: #0093ce;
+    background-color: #00193b;
+    color: #00b5bb;
 }
 
-.error,
-#resultadoHS,
-#resultadoSC1500,
-#resultadoSC2000 {
-    display: none
+.error {
+    color: #c20000;
+    font-size: 22px;
+    display: none;
 }
